@@ -1,0 +1,336 @@
+@import url("https: //fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+* {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Noto Sans KR', sans-serif;}
+a {text-decoration: none; color: #000;}
+ul {list-style: none;}
+img {display: block;}
+body {padding-top: 170px;}
+
+.inner {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: 100;
+}
+header .inner {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+header .inner a {
+  width: 207px;
+  height: 30px;
+}
+header .inner .search {
+  width: 250px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+header .inner .search input {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 36px;
+  border-radius: 40px;
+  padding: 0 30px 0 20px;
+}
+header .inner .search .search_i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+header .inner .gnb {
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+header .inner .gnb a {
+  color: #fff;
+}
+.lnb {
+  width: 100%;
+  height: 110px;
+  padding: 10px 0;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  position: relative;
+}
+.list {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.list>div {
+  margin-right: 50px;
+}
+.list>div:last-child {
+  margin: 0;
+}
+.list>div>div {
+  width: 59px;
+  height: 59px;
+  margin: 0 auto;
+}
+.list>div div img {
+  width: 100%;
+}
+.list>div p {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 5px;
+  color: #000;
+}
+
+.banner {
+  width: 100%;
+  height: 390px;
+  margin: 110px 0;
+  background: url(/public/images/banner_b.jpg) center center/cover;
+  background-attachment: fixed;
+  position: relative;
+    filter: grayscale(100%);
+}
+.banner .banner_b {
+  width: 100%;
+  height: 100%;
+}
+.banner .banner_f {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.banner .banner_f img {
+  margin: 0 auto;
+}
+.banner .txt {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+.banner .txt p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+}
+.banner .txt p:last-child {
+  font-size: 18px;
+}
+
+
+.collabo {}
+.collabo h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+.collabo .inner {}
+.collabo .inner>div {
+  display: flex;
+  margin-bottom: 50px;
+}
+.collabo .inner .left {
+  flex-direction: row-reverse;
+}
+.collabo .inner .txt {
+  text-align: center;
+  padding: 30px 100px;
+}
+.collabo .inner .col_img {
+  position: relative;
+}
+.collabo .inner .col_img:hover .hover {
+  color: #fff;
+  opacity: 1;
+}
+.collabo .inner .col_img .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(0,0,0,0.4);
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collabo .txt .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.collabo .txt .sub {
+  font-size: 13px;
+  font-weight: bold;
+}
+.collabo .txt .main {
+  margin: 35px 0;
+}
+.collabo .txt .day {}
+
+
+
+
+.cart {}
+.cart .inner {}
+.cart .inner .title {
+  font-size: 34px;
+  text-align: center;
+  padding: 80px 0 40px 0;
+  border-bottom: 1px solid #000;
+}
+.cart .inner .order_box {
+  display: flex;
+  width: 1190px;
+  margin: 40px auto 0 auto;
+}
+.cart .inner .order_box .info {
+  width: 690px;
+  margin-right: 200px;
+}
+.cart .inner .order_box .info .gentle_pro {
+  margin-bottom: 20px;
+}
+.cart .inner .order_box .info .cart_list {
+  display: flex;
+  gap: 20px;
+}
+.cart .inner .order_box .info .cart_list .pro_img {
+  width: 150px;
+  height: 150px;
+}
+.cart .inner .order_box .info .cart_list .pro_img img {
+  width: 100%;
+}
+.cart .inner .order_box .info .cart_list .pro_txt {
+  width: 400px;
+  font-size: 24px;
+}
+.cart .inner .order_box .info .cart_list .pro_cnt {
+  width: 100px;
+}
+.cart .inner .order_box .info .cart_list .pro_cnt .cnt {
+  display: flex;
+  margin: 30px 0;
+}
+.cart .inner .order_box .info .cart_list .pro_cnt .delete {
+  text-align: end;
+}
+.cart .inner .order_box .info .cart_list .pro_cnt .cnt>p {
+  width: 70px;
+  height: 44px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 44px;
+}
+.cart .inner .order_box .info .cart_list .pro_cnt .add p {
+  width: 30px;
+  height: 22px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 22px;
+}
+.cart .inner .order_box .info .cart_list .pro_cnt .price {
+  font-size: 14px;
+  text-align: end;
+}
+
+
+.cart .inner .order_box .order {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+.cart .inner .order_box .order>p {
+  padding: 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+}
+.cart .inner .order_box .order .total {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.cart .inner .order_box .order .total p {
+  font-weight: bold;
+}
+.cart .inner .order_box .order .total_order {
+  width: 260px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  background: skyblue;
+}
+
+
+
+
+footer {
+  width: 100%;
+  background: #000;
+  margin-top: 50px;
+}
+footer .inner {
+  padding: 20px 0;
+  color: #fff;
+}
+footer .inner .foot_t {
+  display: flex;
+  justify-content: space-between;
+}
+footer .inner .foot_t .logo {
+  width: 158px;
+  height: 23px;
+}
+footer .inner .foot_t .logo {
+  width: 100%;
+  height: 23px;
+}
+footer .inner .foot_t .info {
+  display: flex;
+  font-size: 13px;
+}
+footer .inner .foot_t .info ul {
+  width: 117px;
+}
+footer .inner .foot_t .info ul:nth-child(2) {
+  margin: 0 20px;
+}
+footer .inner .foot_t .info ul li:first-child {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+footer .inner .foot_t .info ul li {
+  margin-bottom: 10px;
+}
+footer .inner .foot_b {
+  display: flex;
+  margin-top: 20px;
+}
+footer .inner .foot_b .copy {
+  font-size: 13px;
+  margin-right: 50px;
+}
+footer .inner .foot_b .address {
+  font-size: 12px;
+}

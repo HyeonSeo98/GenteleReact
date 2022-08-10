@@ -1,0 +1,125 @@
+.detail .inner {
+  margin: 50px auto;
+}
+.detail .inner .info {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.detail .order {
+  display: flex;
+  justify-content: space-between;
+}
+.detail .order .left {
+  width: 926px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.detail .order .right {
+  width: 400px;
+}
+.detail .order .right .title {
+  display: flex;
+  justify-content: space-between;
+}
+.detail .order .right .title p:first-child {
+  font-size: 21px;
+  font-weight: bold;
+}
+.detail .order .right .sub_img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+.detail .order .right .txt {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.detail .order .right .btn {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.detail .order .right .btn button {
+  width: 100%;
+  border-radius: 30px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 15px;
+}
+.detail .order .right .btn button:first-child {
+  background: #000;
+  color: #fff;
+}
+.detail .order .right .btn button:nth-child(2) {
+  margin: 10px 0;
+}
+
+.detail .order .right .list_box>p {
+  margin-bottom: 50px;
+}
+.detail .order .right .list_box>div {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  transition: all 0.5s;
+}
+.detail .order .right .list_box>div:last-child {
+  border-bottom: 1px solid #ccc;
+}
+.detail .order .right .list_box .l_title {
+  width: 100%;
+  height: 60px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.detail .order .right .list_box>div .sub {
+  font-size: 13px;
+  line-height: 26px;
+}
+
+.detail .order .right .list_box .pro.on {
+  height: 278px;
+}
+.detail .order .right .list_box .free.on {
+  height: 440px;
+}
+.detail .order .right .list_box .basic.on {
+  height: 158px;
+}
+.detail .order .right .list_box .del.on {
+  height: 252px;
+}
+.detail .order .right .list_box .help.on {
+  height: 278px;
+}
+
+.detail .sns {
+  margin-top: 100px;
+}
+.detail .sns .sns_box {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.detail .recommend {
+  margin-top: 100px;
+}
+.detail .recommend .rec_box {
+  display: flex;
+  gap: 10px;
+}
+.detail .recommend .rec_box .txt {
+  font-size: 13px;
+  margin-top: 5px;
+}
+.detail .recommend .rec_box .txt p:last-child {
+  font-size: 11px;
+}
