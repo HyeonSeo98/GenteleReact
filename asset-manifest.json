@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GenteleReact/static/css/main.c9419855.css",
+    "main.js": "/GenteleReact/static/js/main.7e58cd0b.js",
+    "static/js/787.fccccdce.chunk.js": "/GenteleReact/static/js/787.fccccdce.chunk.js",
+    "static/media/banner_b.jpg": "/GenteleReact/static/media/banner_b.f1cfe840d8899a09b108.jpg",
+    "index.html": "/GenteleReact/index.html",
+    "main.c9419855.css.map": "/GenteleReact/static/css/main.c9419855.css.map",
+    "main.7e58cd0b.js.map": "/GenteleReact/static/js/main.7e58cd0b.js.map",
+    "787.fccccdce.chunk.js.map": "/GenteleReact/static/js/787.fccccdce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9419855.css",
+    "static/js/main.7e58cd0b.js"
+  ]
+}
